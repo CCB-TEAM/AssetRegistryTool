@@ -105,14 +105,14 @@ UAssetRegistryToolCommandlet::~UAssetRegistryToolCommandlet() {}
 // ********** End Class UAssetRegistryToolCommandlet ***********************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_kardsmod_KardsDummy_kards_Plugins_AssetRegistryTool_Source_AssetRegistryTool_Public_AssetRegistryToolCommandlet_h__Script_AssetRegistryTool_Statics
+struct Z_CompiledInDeferFile_FID_UE_Work_kards_Plugins_AssetRegistryTool_main_Source_AssetRegistryTool_Public_AssetRegistryToolCommandlet_h__Script_AssetRegistryTool_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_UAssetRegistryToolCommandlet, UAssetRegistryToolCommandlet::StaticClass, TEXT("UAssetRegistryToolCommandlet"), &Z_Registration_Info_UClass_UAssetRegistryToolCommandlet, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAssetRegistryToolCommandlet), 2212076158U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_kardsmod_KardsDummy_kards_Plugins_AssetRegistryTool_Source_AssetRegistryTool_Public_AssetRegistryToolCommandlet_h__Script_AssetRegistryTool_190375176(TEXT("/Script/AssetRegistryTool"),
-	Z_CompiledInDeferFile_FID_kardsmod_KardsDummy_kards_Plugins_AssetRegistryTool_Source_AssetRegistryTool_Public_AssetRegistryToolCommandlet_h__Script_AssetRegistryTool_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_kardsmod_KardsDummy_kards_Plugins_AssetRegistryTool_Source_AssetRegistryTool_Public_AssetRegistryToolCommandlet_h__Script_AssetRegistryTool_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UE_Work_kards_Plugins_AssetRegistryTool_main_Source_AssetRegistryTool_Public_AssetRegistryToolCommandlet_h__Script_AssetRegistryTool_190375176(TEXT("/Script/AssetRegistryTool"),
+	Z_CompiledInDeferFile_FID_UE_Work_kards_Plugins_AssetRegistryTool_main_Source_AssetRegistryTool_Public_AssetRegistryToolCommandlet_h__Script_AssetRegistryTool_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UE_Work_kards_Plugins_AssetRegistryTool_main_Source_AssetRegistryTool_Public_AssetRegistryToolCommandlet_h__Script_AssetRegistryTool_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************

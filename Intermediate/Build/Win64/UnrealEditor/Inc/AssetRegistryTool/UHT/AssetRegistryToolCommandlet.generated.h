@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class UAssetRegistryToolCommandlet *********************************************
 ASSETREGISTRYTOOL_API UClass* Z_Construct_UClass_UAssetRegistryToolCommandlet_NoRegister();
 
-#define FID_kardsmod_KardsDummy_kards_Plugins_AssetRegistryTool_Source_AssetRegistryTool_Public_AssetRegistryToolCommandlet_h_24_INCLASS_NO_PURE_DECLS \
+#define FID_UE_Work_kards_Plugins_AssetRegistryTool_main_Source_AssetRegistryTool_Public_AssetRegistryToolCommandlet_h_24_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUAssetRegistryToolCommandlet(); \
 	friend struct Z_Construct_UClass_UAssetRegistryToolCommandlet_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(UAssetRegistryToolCommandlet)
 
 
-#define FID_kardsmod_KardsDummy_kards_Plugins_AssetRegistryTool_Source_AssetRegistryTool_Public_AssetRegistryToolCommandlet_h_24_ENHANCED_CONSTRUCTORS \
+#define FID_UE_Work_kards_Plugins_AssetRegistryTool_main_Source_AssetRegistryTool_Public_AssetRegistryToolCommandlet_h_24_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UAssetRegistryToolCommandlet(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -42,12 +42,12 @@ public: \
 	NO_API virtual ~UAssetRegistryToolCommandlet();
 
 
-#define FID_kardsmod_KardsDummy_kards_Plugins_AssetRegistryTool_Source_AssetRegistryTool_Public_AssetRegistryToolCommandlet_h_21_PROLOG
-#define FID_kardsmod_KardsDummy_kards_Plugins_AssetRegistryTool_Source_AssetRegistryTool_Public_AssetRegistryToolCommandlet_h_24_GENERATED_BODY \
+#define FID_UE_Work_kards_Plugins_AssetRegistryTool_main_Source_AssetRegistryTool_Public_AssetRegistryToolCommandlet_h_21_PROLOG
+#define FID_UE_Work_kards_Plugins_AssetRegistryTool_main_Source_AssetRegistryTool_Public_AssetRegistryToolCommandlet_h_24_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_kardsmod_KardsDummy_kards_Plugins_AssetRegistryTool_Source_AssetRegistryTool_Public_AssetRegistryToolCommandlet_h_24_INCLASS_NO_PURE_DECLS \
-	FID_kardsmod_KardsDummy_kards_Plugins_AssetRegistryTool_Source_AssetRegistryTool_Public_AssetRegistryToolCommandlet_h_24_ENHANCED_CONSTRUCTORS \
+	FID_UE_Work_kards_Plugins_AssetRegistryTool_main_Source_AssetRegistryTool_Public_AssetRegistryToolCommandlet_h_24_INCLASS_NO_PURE_DECLS \
+	FID_UE_Work_kards_Plugins_AssetRegistryTool_main_Source_AssetRegistryTool_Public_AssetRegistryToolCommandlet_h_24_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -57,6 +57,6 @@ class UAssetRegistryToolCommandlet;
 // ********** End Class UAssetRegistryToolCommandlet ***********************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_kardsmod_KardsDummy_kards_Plugins_AssetRegistryTool_Source_AssetRegistryTool_Public_AssetRegistryToolCommandlet_h
+#define CURRENT_FILE_ID FID_UE_Work_kards_Plugins_AssetRegistryTool_main_Source_AssetRegistryTool_Public_AssetRegistryToolCommandlet_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

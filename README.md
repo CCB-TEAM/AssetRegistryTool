@@ -11,6 +11,23 @@ UE 5.6.1 editor plugin for building a new `AssetRegistry.bin` from an existing r
 5. Choose the output path for the generated registry.
 6. Select assets in the Content Browser and click `Generate From Selected Assets`, or click `Generate From All /Game Assets`.
 
+## Cooked asset import
+
+The tool can also import cooked `.uasset` files without loading them as editable
+editor assets. Use `Add .uasset...`, `Add cooked folder...`, or drag `.uasset`
+files from Explorer onto the tool panel. The reader uses UE 5.6's native
+`FPackageReader` and derives `/Game/...` from the nearest `Content` directory.
+Matching `.uexp` and `.ubulk` files are checked and reported when absent.
+The importer also follows cooked soft-package references when the referenced
+package is present beside the selected file's `Content` tree, so common asset
+dependencies can be registered in the same pass.
+
+Imported cooked asset data is merged with the base registry and normal project
+assets. The cooked override option controls conflicts with project assets; the
+existing base-registry overwrite option controls conflicts with the base file.
+This feature only writes registry metadata. It does not convert cooked packages
+into editor-editable assets.
+
 The generated file contains the base registry plus the chosen project assets. The overwrite checkbox controls whether project assets replace entries with the same object path that already exist in the base registry.
 
 ## Commandlet usage

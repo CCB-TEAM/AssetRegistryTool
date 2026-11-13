@@ -28,6 +28,10 @@ public class AssetRegistryTool : ModuleRules
             "ContentBrowser",
             "DesktopPlatform",
         });
+
+        // PackageReader.h is intentionally an AssetRegistry internal header in UE 5.6.
+        PrivateIncludePaths.Add(System.IO.Path.Combine(EngineDirectory, "Source/Runtime/AssetRegistry/Internal"));
+
     }
 }
 
